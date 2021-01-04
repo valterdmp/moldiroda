@@ -2753,7 +2753,7 @@ Main Menu: Responsive
 }
 .header-extras > ul > li > a:not(.btn),
 .header-extras > ul > li > .p-dropdown {
-  padding-left: 16px; /*valter*/
+  padding-left: 6px; /*valter*/
   padding-right: 6px; 
 }
 .header-extras > ul > li .p-dropdown a > span {
@@ -2854,7 +2854,7 @@ Main Menu: Responsive
 
 @media (max-width: 1024px) {
   .header-extras {
-    float: right; /*valter*/
+    float: left; /*valter*/
   }
   .header-extras > ul .p-dropdown > a > i,
   .header-extras > ul > li > a > i {
