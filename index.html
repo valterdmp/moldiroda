@@ -13,15 +13,17 @@
     <!-- Stylesheets & Fonts -->
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3HBVTV5GZG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HBVTV5GZG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'G-3HBVTV5GZG');
-</script>
+        gtag('config', 'G-3HBVTV5GZG');
+    </script> 
+    
 </head>
 
 <body>
@@ -76,7 +78,8 @@
         <div id="cookieNotify" class="modal-strip cookie-notify background-dark" data-delay="3000" data-expire="1" data-cookie-name="cookiebar2020_1" data-cookie-enabled="true">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 text-sm-center text-md-left sm-m-b-10 m-t-5">Este website utiliza cookies. <a href="politicas" class="text-light"><span>Mais informações</span></a>. <i class="fa fa-info-circle"></i></div>
+                    <div class="col-lg-8 text-sm-center text-md-left sm-m-b-10 m-t-5 d-none d-md-block">Este website utiliza cookies. <a href="politicas" class="text-light"><span>Mais informações</span></a>. <i class="fa fa-info-circle"></i></div>
+                    <div class="col-lg-8 text-sm-center text-md-left sm-m-b-10 m-t-5 d-block d-md-none">Este website utiliza cookies. <br><a href="politicas" class="text-light"><span>Mais informações</span></a>. <i class="fa fa-info-circle"></i></div>
                     <div class="col-lg-4 text-right sm-text-center sm-center">
                         <button type="button" class="btn btn-rounded btn-light btn-outline btn-sm m-r-10 modal-confirm">Concordo</button>
                     </div>
@@ -84,30 +87,17 @@
             </div>
         </div>
         <!--End: Modal Cookie-->
-        
-                <!--Modal Cookie--
-        <div id="cookieNotify" class="modal-strip modal-top cookie-notify background-light" data-delay="3000" data-expire="1" data-cookie-name="cookiebar2019_11" data-cookie-enabled="true">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 text-sm-center text-md-left sm-m-b-10 m-t-5 text-dark">Este website utiliza cookies para facilitar a navegação. <a href="#" class="text-dark"><span>Mais informações</span></a>. <i class="fa fa-info-circle"></i></span></a></div>
-                    <div class="col-lg-4 text-right sm-text-center sm-center">
-                        <button type="button" class="btn btn-rounded btn-dark btn-outline btn-sm m-r-10 modal-close">Decline</button>
-                        <button type="button" class="btn btn-rounded btn-dark btn-sm modal-confirm">Aceito</button>
-                    </div>
-                </div>
-            </div>
-        <!--End: Modal Cookie-->
-    
-    
         <!-- Footer -->
         <footer id="footer">
             <div class="copyright-content">
                 <div class="container">
-                    <div class="copyright-text text-center">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Moldiroda - Cerâmica, Lda. Todos os direitos reservados.</div>
+                    <div class="copyright-text text-center d-none d-md-block">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Moldiroda - Cerâmica, Lda. Todos os direitos reservados.</div>
+                    <div class="copyright-text text-center d-block d-md-none">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Moldiroda - Cerâmica, Lda.<br>Todos os direitos reservados.</div>
                 </div>
             </div>
         </footer>
         <!-- end: Footer -->
+        <div id="footers"></div>
     </div>
     <!-- end: Body Inner -->
     <!-- Scroll top -->
