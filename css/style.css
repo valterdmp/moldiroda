@@ -2540,7 +2540,7 @@ Main Menu: Responsive
     transition: max-height 0.8s cubic-bezier(0.79, 0.14, 0.15, 0.86), opacity 0.8s cubic-bezier(0.79, 0.14, 0.15, 0.86);
   }
   #mainMenu:not(.menu-overlay) > .container {
-    text-align: left !important;
+    text-align: right !important; /*valter*/
     width: 100%;
     max-width: 100%;
   }
@@ -2688,7 +2688,7 @@ Main Menu: Responsive
   }
 
   .mainMenu-open #header #mainMenu {
-    width: calc(100% + 14px);
+    width: 100%;  /*Valter*/
     display: block;
     opacity: 1;
     overflow-y: scroll;
@@ -2753,7 +2753,7 @@ Main Menu: Responsive
 }
 .header-extras > ul > li > a:not(.btn),
 .header-extras > ul > li > .p-dropdown {
-  padding-left: 6px; /*valter*/
+  padding-left: 16px; /*valter*/
   padding-right: 6px; 
 }
 .header-extras > ul > li .p-dropdown a > span {
@@ -2854,7 +2854,7 @@ Main Menu: Responsive
 
 @media (max-width: 1024px) {
   .header-extras {
-    float: left; /*valter*/
+    float: right; /*valter*/
   }
   .header-extras > ul .p-dropdown > a > i,
   .header-extras > ul > li > a > i {
