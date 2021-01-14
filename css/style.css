@@ -5,15 +5,6 @@
    Google Fonts
 -----------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800|Nunito:300,400,600,700,800");
-/*  Base */
-/***********************************************************************
-**														              **
-**         POLO Html5 Template		   								  **
-**         Author: INSPIRO MEDIA								      **
-**		   URL: //www.inspiro-media.com						  **
-**	       													              **
-************************************************************************/
-/*  Content & Layout */
 /* ----------------------------------------------------------------
     BODY
 -----------------------------------------------------------------*/
@@ -2691,7 +2682,7 @@ Main Menu: Responsive
     width: 100%;  /*Valter*/
     display: block;
     opacity: 1;
-    overflow-y: scroll;
+    /*overflow-y: scroll; /*Valter*/
   }
   .mainMenu-open #header .header-inner,
   .mainMenu-open #header #header-wrap {
@@ -8462,8 +8453,8 @@ td.fc-today {
 }
 .p-dropdown.p-dropdown-invert .p-dropdown-content,
 .p-dropdown.p-dropdown-invert ul.p-dropdown-content {
-  left: 0;
-  right: auto;
+  /*left: 0; /*valter*/
+  right: 0; /*valter*/
 }
 .p-dropdown.p-dropdown-invert .p-dropdown-content:before,
 .p-dropdown.p-dropdown-invert ul.p-dropdown-content:before {
