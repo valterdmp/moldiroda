@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.moldiroda.pt/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pt-PT"
+               href="https://www.moldiroda.pt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en-EN"
+               href="https://www.moldiroda.pt/en/"/>
+    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
+    <priority>1.00</priority>  
+  </url>
+  <url>
+    <loc>https://www.moldiroda.pt/en/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en-EN"
+               href="https://www.moldiroda.pt/en/"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="pt-PT"
+               href="https://www.moldiroda.pt/"/>
+    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
+    <priority>1.00</priority>      
+  </url>
+</urlset>
