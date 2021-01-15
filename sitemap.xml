@@ -27,4 +27,86 @@
     <lastmod>2021-01-13T15:20:17+00:00</lastmod>
     <priority>1.00</priority>      
   </url>
+  
+  <url>
+    <loc>https://www.moldiroda.pt/sobre/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pt-PT"
+               href="https://www.moldiroda.pt/sobre/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en-EN"
+               href="https://www.moldiroda.pt/en/about/"/>
+    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
+    <priority>0.80</priority>  
+  </url>
+  <url>
+    <loc>https://www.moldiroda.pt/en/about/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en-EN"
+               href="https://www.moldiroda.pt/en/about/"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="pt-PT"
+               href="https://www.moldiroda.pt/sobre/"/>
+    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
+    <priority>0.80</priority>      
+  </url>
+    
+  <url>
+    <loc>https://www.moldiroda.pt/produtos/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pt-PT"
+               href="https://www.moldiroda.pt/produtos/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en-EN"
+               href="https://www.moldiroda.pt/en/products/"/>
+    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
+    <priority>0.80</priority>  
+  </url>
+  <url>
+    <loc>https://www.moldiroda.pt/en/products/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en-EN"
+               href="https://www.moldiroda.pt/en/products/"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="pt-PT"
+               href="https://www.moldiroda.pt/produtos/"/>
+    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
+    <priority>1.00</priority>      
+  </url>
+    
+  <url>
+    <loc>https://www.moldiroda.pt/contactos/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pt-PT"
+               href="https://www.moldiroda.pt/contactos/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en-EN"
+               href="https://www.moldiroda.pt/en/contacts/"/>
+    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
+    <priority>0.80</priority>  
+  </url>
+  <url>
+    <loc>https://www.moldiroda.pt/en/contacts/</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en-EN"
+               href="https://www.moldiroda.pt/en/contacts/"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="pt-PT"
+               href="https://www.moldiroda.pt/contactos/"/>
+    <lastmod>2021-01-13T15:20:17+00:00</lastmod>
+    <priority>0.80</priority>      
+  </url>
+    
 </urlset>
