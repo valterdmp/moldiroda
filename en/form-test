@@ -1,5 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
 
-    <!-- Formulário -->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="images/favicon.png"> <title>Contactos | Moldiroda Cerâmica</title>
+    <meta name="description" content="Faça-nos uma visita ou contacte-nos por e-mail ou telefone.">
+    <meta name="keywords" content="Contacte-nos">
+    
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V1CLLSQ6F8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-V1CLLSQ6F8');
+        gtag('config', 'UA-191538587-1');
+    </script> 
+    
+</head>
+
+<body>
+    <!-- Body Inner -->
+    <div class="body-inner">
+        <!-- Header -->
+        <header id="header" data-transparent="true" data-fullwidth="false" data-responsive-fixed="true" data-sticky-active="400" class="dark submenu-light">
+            <div class="header-inner" data-animate="fadeInDownBig">
+                <div class="container">
+                    <!--Logo-->
+                    <div id="logo">
+                        <a href="/">
+                            <span class="logo-default">MOLDIRODA</span>
+                            <span class="logo-dark">MOLDIRODA</span>
+                        </a>
+                    </div>
+                    <!--End: Logo-->            
+                    <!--Navigation Responsive Trigger-->
+                    <div id="mainMenu-trigger">
+                        <a class="lines-button x"><span class="lines"></span></a>
+                    </div>
+                    <!--end: Navigation Resposnive Trigger-->
+                    <!--Navigation-->
+                    <div id="mainMenu">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li><a href="sobre">Sobre</a></li>
+                                    <li><a href="produtos">Produtos</a></li>
+                                    <li><a href="contactos">Contactos</a></li>                         
+                                    <li>
+                                        <a href="en/contacts"><i class="icon-globe"></i>EN</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--end: Navigation-->
+                </div>
+            </div>
+        </header>
+        <!-- end: Header -->
+        <!-- Page title -->
+        <section id="page-title" data-bg-parallax="images/contacts.jpg">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="page-title">
+                  <h1 class="text-uppercase text-medium">Contacte a Moldiroda - Fábrica de Cerâmica em Vila Verde, Braga</h1>
+                </div>
+            </div>
+        </section>
+        <!-- end: Page title -->
+        <!-- CONTENT -->
+        <section>
+            <div class="container text-center">
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <address class="mb-5 mb-md-3">
+                                <div><a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Moldiroda+-+Cer%C3%A2mica/@41.5946196,-8.5733149,13z/data=!4m5!3m4!1s0xd2454d5f2329463:0x61fcaf4718cce26!8m2!3d41.5946085!4d-8.5382952" class="btn btn-light btn-icon-holder btn-shadow btn-light-hover">Obter direções<i class="icon-map-pin"></i></a></div>
+                                Avenida Sobral Ilhô, 84<br>
+                                Cervães, Vila-Verde<br>
+                                Braga, Portugal
+                            </address>
+                        </div>
+                        <div class="col-lg-4">
+                            <address class="mb-5 mb-md-0">
+                                <div><a href="mailto:moldiroda@hotmail.com" class="btn btn-light btn-icon-holder btn-shadow btn-light-hover">Enviar email<i class="icon-mail"></i></a></div>
+                                <a href="mailto:moldiroda@hotmail.com" class="text-dark">moldiroda@hotmail.com</a>
+                            </address>
+                        </div>
+                        <div class="col-lg-4">
+                            <address class="mb-5 mb-md-0">
+                                <div><a href="tel:+351 938 231 153" class="btn btn-light btn-icon-holder btn-shadow btn-light-hover">Fazer chamada<i class="icon-phone"></i></a></div>
+                                <a href="tel:+351 938 231 153" class="text-dark">+351 938 231 153</a>
+                            </address>
+                            
+                        </div>
+                    </div>
+                    <p class="p-b-30">Estamos abertos, nos dias úteis, das 8h-12h e das 14h-18h. (Encerrados ao fim de semana e feriados nacionais.)</p>
+            </div>
+        </section> <!-- end: Content -->
+<!-- Formulário -->
 <section class="section bg-light p-t-40 p-b-60">
     <div class="container">
         <h3 class="text-center m-b-30">Precisa de ajuda? Fale connosco </h3>
@@ -35,3 +140,30 @@
     </div>
 </section>
 <!-- Formulário -->
+
+        <!-- Footer -->
+       <footer id="footer">
+            <div class="copyright-content">
+                <div class="container">
+                    <div class="copyright-text text-center">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Moldiroda - Cerâmica, Lda. <br class="d-block d-md-none">Todos os direitos reservados.</div>
+                    <div class="copyright-text text-center">
+                    <a href="https://www.moldiroda.pt/contactos" style="margin-right: 15px;">Contactos</a>
+                    <a href="https://www.moldiroda.pt/sitemap.xml" target="_blank">Sitemap</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+        <!-- end: Footer -->
+    </div>
+    <!-- end: Body Inner -->
+    <!-- Scroll top -->
+    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+    <!--Plugins-->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <!--Template functions-->
+    <script src="js/functions.js"></script>
+</body>
+
+</html>
