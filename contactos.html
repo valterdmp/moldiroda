@@ -80,7 +80,7 @@
         <!-- end: Page title -->
         <!-- CONTENT -->
 
-<!-- Formulário com dois campos lado a lado -->
+<!-- Formulário com layout em colunas e altura igualada -->
 <section class="section p-t-40 p-b-40">
   <div class="container">
     <h2 class="text-center m-b-30">Precisa de ajuda? Fale connosco</h2>
@@ -89,22 +89,28 @@
         <!-- Coluna esquerda: Email -->
         <div class="col-md-6 mb-3">
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required placeholder="exemplo@dominio.com" class="form-control">
+          <input type="email" id="email" name="email" required
+                 placeholder="Insira o seu email..."
+                 class="form-control"
+                 style="height: 150px;">
         </div>
 
         <!-- Coluna direita: Mensagem -->
         <div class="col-md-6 mb-3">
           <label for="message">Mensagem:</label>
-          <textarea id="message" name="message" rows="5" required placeholder="Escreva aqui a sua mensagem..." class="form-control"></textarea>
+          <textarea id="message" name="message" required
+                    placeholder="Deixe-nos aqui a sua mensagem..."
+                    class="form-control"
+                    style="height: 150px;"></textarea>
         </div>
       </div>
 
       <!-- Campo anti-spam invisível -->
       <input type="text" name="_gotcha" style="display:none">
 
-      <!-- Botão de envio centralizado -->
+      <!-- Botão de envio centralizado e mais largo -->
       <div class="text-center mt-3">
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-primary" style="width: 50%;">Enviar</button>
       </div>
     </form>
   </div>
