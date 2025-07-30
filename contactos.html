@@ -82,41 +82,60 @@
 
 
 		<!-- Formulário com campos empilhados verticalmente -->
-	    
-		<section class="section p-t-40 p-b-40">
-			 <div class="container">
-			 <h2 class="text-center m-b-30">Precisa de ajuda? Fale connosco</h2>
-			  <form action="https://formspree.io/f/mdkdzryj" method="POST" class="w-75 m-auto">
-		<!-- Redirecionamento após envio -->
-      			<input type="hidden" name="_next" value="https://www.moldiroda.pt/" />
-		 <!-- Campo: Email -->
-			 <div class="mb-4">
-			<label for="email">Email:</label>
-			  <input type="email" id="email" name="email" required
-				  placeholder="Insira o seu email..."
-				 class="form-control"
-				  style="height: 50px;">
-			 </div>
-						
-		<!-- Campo: Mensagem -->
-			  <div class="mb-4">
-				 <label for="message">Mensagem:</label>
-				 <textarea id="message" name="message" required
-					 placeholder="Deixo-nos aqui a sua mensagem..."
-					 class="form-control"
-					 style="height: 150px;"></textarea>
-			  </div>
-						
-		<!-- Campo anti-spam invisível -->
-			<input type="text" name="_gotcha" style="display:none">
-						
-		<!-- Botão de envio centralizado e mais largo -->
-			<div class="text-center">
-			<button type="submit" class="btn btn-primary" style="width: 30%; display: inline-flex; justify-content: center; align-items: center; text-align: center;">Enviar</button>
-			 </div>
-			 </form>
-			  </div>
-		</section>
+<section class="section p-t-40 p-b-40">
+  <div class="container">
+    <h2 class="text-center m-b-30">Precisa de ajuda? Fale connosco</h2>
+    <form action="https://formspree.io/f/mdkdzryj" method="POST" class="w-75 m-auto">
+      <!-- Redirecionamento após envio -->
+      <input type="hidden" name="_next" value="https://www.moldiroda.pt/" />
+
+      <!-- Campo: Nome -->
+      <div class="mb-4">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required
+               placeholder="Insira o seu nome"
+               class="form-control"
+               style="height: 50px;">
+      </div>
+
+      <!-- Campo: Empresa -->
+      <div class="mb-4">
+        <label for="empresa">Empresa:</label>
+        <input type="text" id="empresa" name="empresa"
+               placeholder="Insira o nome da sua empresa"
+               class="form-control"
+               style="height: 50px;">
+      </div>
+
+      <!-- Campo: Email -->
+      <div class="mb-4">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required
+               placeholder="Insira o seu email"
+               class="form-control"
+               style="height: 50px;">
+      </div>
+
+      <!-- Campo: Mensagem -->
+      <div class="mb-4">
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required
+                  placeholder="Deixe-nos aqui a sua mensagem"
+                  class="form-control"
+                  style="height: 150px;"></textarea>
+      </div>
+
+      <!-- Campo anti-spam invisível -->
+      <input type="text" name="_gotcha" style="display:none">
+
+      <!-- Botão de envio -->
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary" style="width: 30%; display: inline-flex; justify-content: center; align-items: center; text-align: center;">Enviar</button>
+      </div>
+    </form>
+  </div>
+</section>
+
 
 
 	    
